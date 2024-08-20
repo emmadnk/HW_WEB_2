@@ -33,12 +33,12 @@
   },
   {
     "model": "catalog.product",
-    "pk": 1,
+    "pk": 6,
     "fields": {
       "name": "machine intelligence",
       "description": "Применение искусственного интелекта в машиностроении",
       "image": "",
-      "category": null,
+      "category": 1,
       "price": 3000000,
       "created_at": null,
       "updated_at": null
@@ -46,12 +46,12 @@
   },
   {
     "model": "catalog.product",
-    "pk": 2,
+    "pk": 7,
     "fields": {
       "name": "Чат-боты",
       "description": "Разработка ботов в телеграм",
       "image": "",
-      "category": null,
+      "category": 2,
       "price": 200000,
       "created_at": null,
       "updated_at": null
@@ -59,12 +59,12 @@
   },
   {
     "model": "catalog.product",
-    "pk": 3,
+    "pk": 8,
     "fields": {
       "name": "Доставка еды",
       "description": "Приложение для заказа и доставки блюд из ресторанов",
       "image": "",
-      "category": null,
+      "category": 3,
       "price": 500000,
       "created_at": null,
       "updated_at": null
@@ -72,12 +72,12 @@
   },
   {
     "model": "catalog.product",
-    "pk": 4,
+    "pk": 9,
     "fields": {
       "name": "Кибербезопасность.ру",
       "description": "Сайт о кибербезопасности",
       "image": "",
-      "category": null,
+      "category": 4,
       "price": 100000,
       "created_at": null,
       "updated_at": null
