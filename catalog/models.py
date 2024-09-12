@@ -68,7 +68,22 @@ class Product(models.Model):
         null=True,
         help_text="Укажите дату последнего изменения",
     )
+    views_counter = models.PositiveIntegerField(
+        verbose_name="Счетчик просмотров",
+        help_text="Укажите количество просмотров",
+        default=0
 
+    )
+    is_published = models.BooleanField(
+        default=True,
+        verbose_name='Опубликовано'
+    )
+    slug = models.CharField(
+        max_length=150,
+        verbose_name='slug',
+        null=True,
+        blank=True
+    )
     class Meta:
         verbose_name = "Продукт"
         verbose_name_plural = "Продукты"
