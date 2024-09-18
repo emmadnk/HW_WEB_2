@@ -122,3 +122,9 @@ class Version(models.Model):
 
     def __str__(self):
         return f"{self.number} - {self.name}"
+
+    constraints = [
+        models.UniqueConstraint(fields=["product", "number"],
+                                name='unique_versions',
+                                violation_error_message="Номер версии должен быть уникальным")
+    ]
